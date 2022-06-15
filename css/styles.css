@@ -412,3 +412,16 @@ ul.row-sm {
    margin-right: -10px;
   }
 }
+
+#map {
+  height: 250px;
+}
+label{
+  color: white;
+  font-size: 16px;
+} 
+
+input:focus {
+  color: red;
+}
+.form-control:focus { border-color: #C12329; box-shadow: 0 0 0 0.2rem rgba(78, 20, 28, 0.25); }

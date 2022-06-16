@@ -165,7 +165,25 @@ ul.row-sm {
  margin-right: -10px;
 }
 
-@media screen and (max-width: 393px) {
+#map {
+  height: 250px;
+}
+label{
+  color: white;
+  font-size: 16px;
+} 
+
+input:focus {
+  color: red;
+}
+.form-control:focus { border-color: #C12329; box-shadow: 0 0 0 0.2rem rgba(78, 20, 28, 0.25); }
+
+
+.swal2-confirm.btn.btn-success {
+  margin-left: 10px;
+}
+
+@media all and (max-width: 393px) {
   .contenedorBotonesNavPrincipal {
     display: flex;
     flex-direction: column;
@@ -249,7 +267,7 @@ ul.row-sm {
   }
 }
 
-@media (min-width: 394px) and (max-width: 560px) {
+@media (min-width: 393px) and (max-width: 560px) {
   .contenedorBotonesNavPrincipal {
     display: flex;
     flex-direction: column;
@@ -332,7 +350,7 @@ ul.row-sm {
   }
 }
 
-@media (min-width: 561px) and (max-width: 760px) {
+@media (min-width: 560px) and (max-width: 760px) {
   .contenedorBotonesNavPrincipal {
     display: flex;
     flex-direction: column;
@@ -413,20 +431,3 @@ ul.row-sm {
   }
 }
 
-#map {
-  height: 250px;
-}
-label{
-  color: white;
-  font-size: 16px;
-} 
-
-input:focus {
-  color: red;
-}
-.form-control:focus { border-color: #C12329; box-shadow: 0 0 0 0.2rem rgba(78, 20, 28, 0.25); }
-
-
-.swal2-confirm.btn.btn-success {
-  margin-left: 10px;
-}

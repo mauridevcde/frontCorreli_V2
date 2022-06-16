@@ -425,3 +425,8 @@ input:focus {
   color: red;
 }
 .form-control:focus { border-color: #C12329; box-shadow: 0 0 0 0.2rem rgba(78, 20, 28, 0.25); }
+
+
+.swal2-confirm.btn.btn-success {
+  margin-left: 10px;
+}

@@ -149,46 +149,51 @@ ul.row-sm {
   color: #212529;
 }
 
-#contenedorFormFaccion{
+#contenedorFormFaccion {
   background-color: #ccc;
-  width: 80%;border-radius: 10px;
- 
+  width: 80%;
+  border-radius: 10px;
 }
-#btnGuardarFaccion{
+#btnGuardarFaccion {
   margin-bottom: 20px;
 }
-#btnGuardarNuevoFaccion{
+#btnGuardarNuevoFaccion {
   position: absolute;
   z-index: 3;
 }
-#btnGuardarNuevoFaccion{
- margin-right: -10px;
+#btnGuardarNuevoFaccion {
+  margin-right: -10px;
 }
 
 #map {
   height: 250px;
 }
-label{
+label {
   color: white;
   font-size: 16px;
-} 
+}
 
 input:focus {
   color: red;
 }
-.form-control:focus { border-color: #C12329; box-shadow: 0 0 0 0.2rem rgba(78, 20, 28, 0.25); }
-
+.form-control:focus {
+  border-color: #c12329;
+  box-shadow: 0 0 0 0.2rem rgba(78, 20, 28, 0.25);
+}
 
 .swal2-confirm.btn.btn-success {
   margin-left: 10px;
 }
 
 @media all and (max-width: 393px) {
+  img {
+    width: 50%;
+  }
   .contenedorBotonesNavPrincipal {
     display: flex;
     flex-direction: column;
-    gap: 10px;
     justify-content: center;
+    gap: 5px;
   }
 
   #logoNavBarSecundario {
@@ -196,83 +201,80 @@ input:focus {
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 100%;
   }
-  .contenedorBotonesNavPrincipal {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
+
   #navbarSupportedContent a {
     margin-top: 7px;
     margin-left: 3px;
   }
 
-  #containerBusquedaFaccion{
+  #containerBusquedaFaccion {
     display: flex;
-    width:  100%;
+    width: 100%;
     max-width: 100%;
-    justify-content: flex-end; 
+    justify-content: flex-end;
     margin-left: -25px;
     gap: 25px;
   }
-  #botonesFaccion{
+  #botonesFaccion {
     display: flex;
     width: 100%;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
   }
-  #btnBuscar{
-
+  #btnBuscar {
     margin-left: 18%;
   }
-  #searchCliente{
+  #searchCliente {
     width: 170%;
   }
-  #searchCiudad{
+  #searchCiudad {
     width: 170%;
   }
-  #searchProvincia{
+  #searchProvincia {
     width: 170%;
   }
 
-  table{
+  table {
     width: 100%;
     background-color: #000;
   }
 
-  table tr{
+  table tr {
     display: flex;
     flex-direction: column;
     padding: 10px;
     margin-bottom: 5px;
   }
-  table td[data-id]{
+  table td[data-id] {
     display: flex;
   }
-  table td[data-id]::before{
+  table td[data-id]::before {
     content: attr(data-id);
     width: 90px;
   }
-  table thead{
+  table thead {
     display: none;
   }
-  #btnGuardarNuevoFaccion{
+  #btnGuardarNuevoFaccion {
     position: absolute;
     z-index: 3;
   }
-  #btnGuardarNuevoFaccion{
-   margin-right: -10px;
+  #btnGuardarNuevoFaccion {
+    margin-right: -10px;
   }
 }
 
 @media (min-width: 393px) and (max-width: 560px) {
+  img {
+    width: 50%;
+  }
   .contenedorBotonesNavPrincipal {
     display: flex;
     flex-direction: column;
-    gap: 10px;
     justify-content: center;
+    gap: 5px;
   }
 
   #logoNavBarSecundario {
@@ -282,71 +284,65 @@ input:focus {
     width: 100%;
     max-width: 100%;
   }
-  .contenedorBotonesNavPrincipal {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
   #navbarSupportedContent a {
     margin-top: 7px;
     margin-left: 3px;
   }
-  #containerBusquedaFaccion{
+  #containerBusquedaFaccion {
     display: flex;
-    width:  100%;
+    width: 100%;
     max-width: 100%;
-
   }
-  #botonesFaccion{
+  #botonesFaccion {
     display: flex;
     width: 100%;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
   }
-  #btnBuscar{
+  #btnBuscar {
     margin-top: 20px;
     margin-left: 30%;
   }
-  #btnModalAggFaccion{
+  #btnModalAggFaccion {
     margin-top: 20px;
   }
-  #searchCliente{
+  #searchCliente {
     width: 120%;
   }
-  #searchCiudad{
+  #searchCiudad {
     width: 120%;
   }
-  #searchProvincia{
+  #searchProvincia {
     width: 120%;
   }
-  table{
+  table {
     width: 100%;
     background-color: #000;
   }
 
-  table tr{
+  table tr {
     display: flex;
     flex-direction: column;
     padding: 10px;
     margin-bottom: 5px;
   }
-  table td[data-id]{
+  table td[data-id] {
     display: flex;
   }
-  table td[data-id]::before{
+  table td[data-id]::before {
     content: attr(data-id);
     width: 90px;
   }
-  table thead{
+  table thead {
     display: none;
   }
-  #btnGuardarNuevoFaccion{
+  #btnGuardarNuevoFaccion {
     position: absolute;
     z-index: 3;
   }
-  #btnGuardarNuevoFaccion{
-   margin-right: -10px;
+  #btnGuardarNuevoFaccion {
+    margin-right: -10px;
   }
 }
 
@@ -374,60 +370,59 @@ input:focus {
     margin-top: 7px;
     margin-left: 3px;
   }
-  #containerBusquedaFaccion{
+  #containerBusquedaFaccion {
     display: flex;
-    width:  100%;
+    width: 100%;
     max-width: 100%;
-    justify-content: flex-end; 
+    justify-content: flex-end;
     margin-left: -25px;
     gap: 25px;
   }
-  #botonesFaccion{
+  #botonesFaccion {
     display: flex;
     width: 100%;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
   }
-  #btnBuscar{
+  #btnBuscar {
     margin-left: 33%;
   }
-  #searchCliente{
+  #searchCliente {
     width: 170%;
   }
-  #searchCiudad{
+  #searchCiudad {
     width: 170%;
   }
-  #searchProvincia{
+  #searchProvincia {
     width: 170%;
   }
-  table{
+  table {
     width: 100%;
     background-color: #000;
   }
 
-  table tr{
+  table tr {
     display: flex;
     flex-direction: column;
     padding: 10px;
     margin-bottom: 5px;
   }
-  table td[data-id]{
+  table td[data-id] {
     display: flex;
   }
-  table td[data-id]::before{
+  table td[data-id]::before {
     content: attr(data-id);
     width: 90px;
   }
-  table thead{
+  table thead {
     display: none;
   }
-  #btnGuardarNuevoFaccion{
+  #btnGuardarNuevoFaccion {
     position: absolute;
     z-index: 3;
   }
-  #btnGuardarNuevoFaccion{
-   margin-right: -10px;
+  #btnGuardarNuevoFaccion {
+    margin-right: -10px;
   }
 }
-

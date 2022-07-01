@@ -187,8 +187,13 @@ input:focus {
 
 @media all and (max-width: 393px) {
   img {
-    width: 50%;
+    width: 30%;
   }
+  #botonesComando {
+    margin-left: 20%;
+    margin-top: 4%;
+  }
+
   .contenedorBotonesNavPrincipal {
     display: flex;
     flex-direction: column;
@@ -227,15 +232,17 @@ input:focus {
     margin-left: 18%;
   }
   #searchCliente {
-    width: 170%;
+    width: 160%;
+    margin-left: -50px;
   }
   #searchCiudad {
-    width: 170%;
+    width: 160%;
+    margin-left: -22px;
   }
   #searchProvincia {
-    width: 170%;
+    width: 160%;
+    margin-left: 4px;
   }
-
   table {
     width: 100%;
     background-color: #000;
@@ -308,13 +315,20 @@ input:focus {
     margin-top: 20px;
   }
   #searchCliente {
-    width: 120%;
+    width: 160%;
+    margin-left: -50px;
   }
   #searchCiudad {
-    width: 120%;
+    width: 160%;
+    margin-left: -22px;
   }
   #searchProvincia {
-    width: 120%;
+    width: 160%;
+    margin-left: 4px;
+  }
+  #botonesComando {
+    margin-left: 20%;
+    margin-top: 4%;
   }
   table {
     width: 100%;
@@ -396,6 +410,10 @@ input:focus {
   }
   #searchProvincia {
     width: 170%;
+  }
+  #botonesComando {
+    margin-left: 20%;
+    margin-top: 4%;
   }
   table {
     width: 100%;

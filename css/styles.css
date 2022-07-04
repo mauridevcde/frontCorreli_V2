@@ -189,6 +189,7 @@ input:focus {
   img {
     width: 30%;
   }
+
   #botonesComando {
     margin-left: 20%;
     margin-top: 4%;
@@ -200,11 +201,12 @@ input:focus {
     justify-content: center;
     gap: 5px;
   }
-
-  #logoNavBarSecundario {
+  #contenedorLogoNavBarSecundario{
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    align-content: center;
+    align-items: center;
     width: 100%;
   }
 
@@ -275,7 +277,7 @@ input:focus {
 
 @media (min-width: 393px) and (max-width: 560px) {
   img {
-    width: 50%;
+    width: 30%;
   }
   .contenedorBotonesNavPrincipal {
     display: flex;
@@ -284,12 +286,13 @@ input:focus {
     gap: 5px;
   }
 
-  #logoNavBarSecundario {
+  #contenedorLogoNavBarSecundario{
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    align-content: center;
+    align-items: center;
     width: 100%;
-    max-width: 100%;
   }
   #navbarSupportedContent a {
     margin-top: 7px;
@@ -367,11 +370,13 @@ input:focus {
     gap: 10px;
     justify-content: center;
   }
-  #logoNavBarSecundario {
+  #contenedorLogoNavBarSecundario{
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    width: 500px;
+    align-content: center;
+    align-items: center;
+    width: 100%;
   }
   .contenedorBotonesNavPrincipal {
     display: flex;
